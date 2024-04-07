@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo de pagina</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Curso Redes</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tipo
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="lan.html">LAN</a></li>
+                  <li><a class="dropdown-item" href="wan.html">WAN</a></li>
+                  <li><a class="dropdown-item" href="pan.html">PAN</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/lan.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/lan1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/lan2.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <section>
+      <div class="row mt-5">
+        <aside class="col-xs-12 col-md-4">
+          <div class="list-group">
+            <a href="#definicion" class="list-group-item list-group-item-action" aria-current="true">
+              Definición
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">¿Que es una Red LAN?</a>
+            <a href="#" class="list-group-item list-group-item-action">¿Cómo funcionan las LAN?</a>
+            <a href="#" class="list-group-item list-group-item-action">¿Qué equipo se necesita para configurar una LAN?</a>
+          </div>
+        </aside>
+        <section class="col-xs-12 col-md-8">
+          <!--Definicion de red-->
+          <div class="row">
+            <div id="definicion">
+              <h1>¿Que es una Red LAN?</h1>
+              <small>  <strong> 29 de febrero 2024 por Perla Edelmira Ucles Moncada</strong></small>
+              <img src="img/1.jpg" alt="rounded float-start mt-2">
+              <p>Una red de área local (LAN) es una red contenida dentro de una pequeña zona geográfica, normalmente dentro del
+                 mismo edificio. Las redes WiFi domésticas y las redes de pequeñas empresas son algunos ejemplos comunes de LAN.</p>
+              <p>Se conoce como red LAN (siglas del inglés: Local Área Network, que traduce Red de Área Local) a una red 
+                informática cuyo alcance se limita a un espacio físico reducido, como una casa, un departamento o a lo sumo un edificio.</p>
+              <p>Las LAN también pueden ser bastante grandes, aunque si ocupan varios edificios, a menudo es más preciso
+                 clasificarlas como redes de área extensa (WAN) o redes de área metropolitana (MAN).</p>
+            </div>
+          </div>
+          <!--/Definicion de red-->
+          <!--funcion de las redes-->
+          <div class="row">
+            <div id="funcion">
+          <h1>¿Cómo funcionan las LAN?</h1>
+          <p>La mayoría de las LAN se conectan a Internet en un punto central: un enrutador. Las LAN domésticas suelen utilizar un único enrutador, mientras que las LAN en espacios más grandes pueden utilizar además conmutadores de red para una entrega de paquetes más eficiente.</p>
+          <p>Las redes LAN casi siempre utilizan Ethernet, WiFi o ambas para conectar los dispositivos de la red. Ethernet es un protocolo de conexión física a la red que requiere el uso de cables Ethernet. WiFi es un protocolo para conectarse a una red mediante ondas de radio.</p>
+          <img src="img/2.webp" class="rounded float-start mt-2"
+          <p>Una variedad de dispositivos puede conectarse a las LAN, incluyendo servidores, ordenadores de escritorio, portátiles, impresoras, dispositivos IoT e incluso videoconsolas. En las oficinas, las LAN suelen utilizarse para proporcionar acceso compartido a los empleados internos a las impresoras o servidores conectados.</p>
+           <!--/funcion de las redes-->
+           <!--Equipo necesario-->
+           <div class="row">
+            <div id="equipo">
+              <h1>¿Qué equipo se necesita para configurar una LAN?</h1>
+              <p>Las redes LAN más sencillas conectadas a Internet solo necesitan un enrutador y una forma en la que los dispositivos informáticos se conecten al enrutador, como por ejemplo mediante cables Ethernet o un punto de acceso WiFi. Las LAN sin conexión a Internet necesitan un conmutador para intercambiar datos. Las LAN grandes, como las de un gran edificio de oficinas, pueden necesitar enrutadores o conmutadores adicionales para reenviar los datos de forma más eficiente a los dispositivos adecuados.</p>
+              <p>No todas las LAN se conectan a Internet. De hecho, las LAN son anteriores a Internet: las primeras LAN se utilizaron en empresas a finales de la década de 1970. (Estas antiguas LAN utilizaban protocolos de red que ya no se usan en la actualidad). El único requisito para configurar una LAN es que los dispositivos conectados puedan intercambiar datos. Para ello suele ser necesario un equipo de red para la conmutación de paquetes, como un conmutador de red. En la actualidad, incluso las LAN que no están conectadas a Internet utilizan los mismos protocolos de red que se usan en Internet (como IP).</p>
+               <!--/Equipo necesario-->
+        </section>
+      </div>
+    </section>
+    <footer>
+      <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+        <p class="text-center">
+          Todos los derechos reservados 2024. Diseñadora Web <strong>Perla Edelmira Ucles Moncada</strong>
+        </p>
+      </div>
+    </footer>
+  </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

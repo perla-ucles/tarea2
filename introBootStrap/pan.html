@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo de pagina</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Curso Redes</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tipo
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="lan.html">LAN</a></li>
+                  <li><a class="dropdown-item" href="wan.html">WAN</a></li>
+                  <li><a class="dropdown-item" href="pan.html">PAN</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/portada2jpg.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/portada4.jpg.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/portada6.jpg.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <section>
+      <div class="row mt-5">
+        <aside class="col-xs-12 col-md-4">
+          <div class="list-group">
+            <a href="#definicion" class="list-group-item list-group-item-action" aria-current="true">
+              Definición
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">¿Qué es una red de área personal (PAN)?</a>
+            <a href="#" class="list-group-item list-group-item-action">Ventajas de la red PAM</a>
+            <a href="#" class="list-group-item list-group-item-action">Características más importantes</a>
+          </div>
+        </aside>
+        <section class="col-xs-12 col-md-8">
+          <!--Definicion de red-->
+          <div class="row">
+            <div id="definicion">
+              <h1>¿Qué es una red de área personal (PAN)?</h1>
+              <small>  <strong> 29 de febrero 2024 por Perla Edelmira Ucles Moncada</strong></small>
+              <img src="img/PAN 1.jpg" alt="rounded float-start mt-2">
+              <p>Una red de área personal (PAN) conecta dispositivos electrónicos dentro del área inmediata de un usuario. El tamaño de una PAN oscila entre unos centímetros y unos metros. Uno de los ejemplos más habituales de PAN en el mundo real es la conexión entre un auricular Bluetooth y un teléfono inteligente. Las PAN también pueden conectar ordenadores portátiles, tabletas, impresoras, teclados y otros dispositivos informáticos.</p>
+              <p>Las conexiones de una red PAN pueden ser por cable o inalámbricas. Los métodos de conexión por cable incluyen USB y FireWire; los métodos de conexión inalámbrica incluyen Bluetooth (el más habitual), WiFi, IrDA y Zigbee.</p>
+              <p>Aunque los dispositivos en una PAN pueden intercambiar datos entre sí, las PAN no suelen incluir un enrutador y, por tanto, no se conectan a Internet directamente. Sin embargo, un dispositivo dentro de una PAN puede conectarse a una red de área local (LAN) que luego se conecta a Internet. Por ejemplo, un ordenador de escritorio, un ratón inalámbrico y unos auriculares inalámbricos pueden estar conectados entre sí, pero solo el ordenador puede conectarse directamente a Internet.</p>
+            </div>
+          </div>
+          <!--/Definicion de red-->
+          <!--Ventajas  de la red-->
+          <div class="row">
+            <div id="ventajas">
+          <h1>Ventajas de la red PAM</h1>
+          <p><strong>Baja complejidad de los componentes de la red:</strong> no se necesitan routers, conmutadores ni otros componentes de red.
+        </p>
+          <p><strong> seguridad gracias al corto alcance de la red:</strong> una red de área personal, como su nombre indica, trabaja a corta distancia del usuario.</p>
+          <p><strong>Poca complejidad en la conexión:</strong> conectar las unidades a través de una red PAN es sencillo, rápido y no conlleva complicaciones.</p>
+        <p><strong>Consumo de energía económico:</strong> una red PAN consume poca energía, por lo que puede funcionar durante mucho tiempo con baterías recargables.</p>
+          <!--/Ventajas de la red-->
+           <!--Características más importantes-->
+           <div class="row">
+            <div id="equipo">
+              <h1>Características más importantes</h1>
+              <p>Una red PAN alcanza velocidades de transmisión relativamente bajas, de unos pocos [megabits por segundo]. El establecimiento de la conexión, ya sea por cable o inalámbrica, es sencillo. La disposición de los dispositivos conectados responde a diferentes topologías de red. Por ejemplo, son simples conexiones punto a punto o conexiones punto a multipunto. A continuación, te explicamos las diferencias cruciales entre las redes de área personal por cable y las inalámbricas.</p>
+               <!--/Características más importantes-->
+        </section>
+      </div>
+    </section>
+    <footer>
+      <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+        <p class="text-center">
+          Todos los derechos reservados 2024. Diseñadora Web <strong>Perla Edelmira Ucles Moncada</strong>
+        </p>
+      </div>
+    </footer>
+  </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

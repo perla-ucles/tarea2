@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo de pagina</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Curso Redes</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Tipo
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="lan.html">LAN</a></li>
+                  <li><a class="dropdown-item" href="wan.html">WAN</a></li>
+                  <li><a class="dropdown-item" href="pan.html">PAN</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/wan1.webp" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/wan2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/wan3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <section>
+      <div class="row mt-5">
+        <aside class="col-xs-12 col-md-4">
+          <div class="list-group">
+            <a href="#definicion" class="list-group-item list-group-item-action" aria-current="true">
+              Definición
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">¿Qué es una red de área amplia (WAN)?</a>
+            <a href="#" class="list-group-item list-group-item-action">¿Cuál es el objetivo de una conexión WAN?</a>
+            <a href="#" class="list-group-item list-group-item-action">Ventajas de la red WAN</a>
+          </div>
+        </aside>
+        <section class="col-xs-12 col-md-8">
+          <!--Definicion de red-->
+          <div class="row">
+            <div id="definicion">
+              <h1>¿Qué es una red de área amplia (WAN)?</h1>
+              <small>  <strong> 29 de febrero 2024 por Perla Edelmira Ucles Moncada</strong></small>
+              <p>Una red de área amplia (WAN) es la tecnología que conecta entre sí a las oficinas, los centros de datos, las aplicaciones en la nube y el almacenamiento en la nube. Se denomina red de área amplia porque se extiende más allá de un solo edificio o un gran recinto para incluir múltiples ubicaciones repartidas a lo largo de una zona geográfica concreta, o incluso del mundo. Por ejemplo, las empresas con muchas sucursales internacionales utilizan una WAN para conectar las redes de las oficinas entre sí. La WAN más grande del mundo es Internet puesto que se trata de un conjunto de muchas redes internacionales que se conectan entre sí. Este artículo se centra en las WAN empresariales y en sus usos y ventajas.</p>
+
+            </div>
+          </div>
+          <!--/Definicion de red-->
+          <!--Cuál es el objetivo de una conexión WAN-->
+          <div class="row">
+            <div id="funcion">
+          <h1>¿Cuál es el objetivo de una conexión WAN?</h1>
+          <p>Las redes de área amplia (WAN) son en la actualidad el eje central de las empresas. Ante la digitalización de los recursos, las empresas utilizan las WAN para hacer lo siguiente:</p>
+          <p>Comunicarse mediante voz y video.</p>
+          <p>Compartir los recursos entre los empleados y los clientes.</p>
+          <p>Acceder al almacenamiento de datos y realizar copias de seguridad remotas.</p>
+          <p>Conectar con las aplicaciones que se ejecutan en la nube.</p>
+          <p>Ejecutar y alojar aplicaciones internas.</p>
+           
+           <!--/Cuál es el objetivo de una conexión WAN-->
+           <!--Ventajas de la red WAN-->
+           <div class="row">
+            <div id="ventajas">
+              <h1>Ventajas de la red WAN</h1>
+              <p>Permite usar un software especial para que entre sus elementos de red coexistan minicomputadoras y macrocomputadoras.</p>
+              <p>No se limita a espacios geográficos determinados.</p>
+              <p>Ofrece una amplia gama de medios de transmisión, como los enlaces satelitales.</p>
+              <p>Brinda mayor seguridad al tener un control de acceso en tiempo real.</p>
+              <p>Proporciona una administración simplificada.</p>
+              <p>Da prioridad en conexiones a aplicaciones críticas, respecto a las no críticas.</p>
+              <p>Presenta la posibilidad de establecer el servicio sin necesidad de cambiar las redes existentes.</p>
+               <!--/Ventajas de la red WAN-->
+        </section>
+      </div>
+    </section>
+    <footer>
+      <div class="row text-bg-dark mt-5 mb-5 pt-3 pb-3">
+        <p class="text-center">
+          Todos los derechos reservados 2024. Diseñadora Web <strong>Perla Edelmira Ucles Moncada</strong>
+        </p>
+      </div>
+    </footer>
+  </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
